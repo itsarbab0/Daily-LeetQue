@@ -5,36 +5,7 @@ public:
         int size2 = nums2.size();
         int index;
         double median;
-        // if(size1 == 0) 
-        // {
-        //     if((size1 % 2) == 0)
-        //     {
-        //         index = size2/2;
-        //         median =(nums2[index] + nums2[index - 1]) / 2.0;
-        //         return median;
-        //     }
-        //     else 
-        //     {
-        //         index = size2/2;
-        //         median = nums2[index];
-        //         return median;
-        //     }
-        // }
-        // else if(size2 == 0) 
-        // {
-        //     if((size2 % 2) == 0)
-        //     {
-        //         index = size1/2;
-        //         median = (nums1[index] + nums1[index - 1]) / 2.0;
-        //         return median;
-        //     }
-        //     else 
-        //     {
-        //         index = size1/2;
-        //         median = nums1[index];
-        //         return median;
-        //     }
-        // }
+        
         vector<int> arr(size1 + size2);
         int i = 0, j =0, k = 0;
 
