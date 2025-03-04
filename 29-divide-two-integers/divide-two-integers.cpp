@@ -33,7 +33,8 @@ public:
             num -= (d << count);
         }
 
-        if (ans > INT_MAX) {
+        if (ans > INT_MAX) 
+        {
             return negative ? INT_MIN : INT_MAX; 
         }
 
